@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sky Stocks Market</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sky Stocks Market</title>
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0b1220;
+color:white;
+}
+header{
+background:#111827;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00d4ff;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+.hero p{
+font-size:20px;
+color:#d1d5db;
+max-width:700px;
+margin:auto;
+}
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#00d4ff;
+color:#000;
+font-weight:bold;
+border-radius:30px;
+text-decoration:none;
+}
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:60px 30px;
+}
+.card{
+background:#1f2937;
+padding:25px;
+border-radius:15px;
+}
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+color:#9ca3af;
+}
+</style>
 </head>
-<body style="text-align:center;font-family:Arial;">
-  <h1>Sky Stocks Market ✨</h1>
-  <p>Welcome to your trading dashboard</p>
+
+<body>
+
+<header>
+<div class="logo">Sky Stocks Market ✨</div>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to Sky Stocks Market</h1>
+<p>
+Market insights, financial education, and investment information to help you make informed decisions.
+</p>
+<a class="btn" href="#">Learn More</a>
+</section>
+
+<section class="features">
+<div class="card">
+<h2>Market Insights</h2>
+<p>Stay updated with market trends and educational resources.</p>
+</div>
+
+<div class="card">
+<h2>Portfolio Tracking</h2>
+<p>Monitor investments with a simple and modern dashboard.</p>
+</div>
+
+<div class="card">
+<h2>Security</h2>
+<p>Your account and information are protected with modern security practices.</p>
+</div>
+
+<div class="card">
+<h2>Support</h2>
+<p>Our support team is available to assist you when you need help.</p>
+</div>
+</section>
+
+<footer>
+© 2026 Sky Stocks Market. All rights reserved.
+</footer>
+
 </body>
 </html>
